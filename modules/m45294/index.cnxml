@@ -1,0 +1,64 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>jQuery Mobile - Strukturering af sider</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45294</md:content-id>
+  <md:title>jQuery Mobile - Strukturering af sider</md:title>
+  <md:abstract>Dette modul introducere til strukturering af sider i jQuery Mobile.</md:abstract>
+  <md:uuid>5531790a-5dce-45da-bef5-21301fe6bbf8</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1172089923637">
+<title>Introduktion</title>
+<para id="about">
+Når sider skal struktureres i jQuery Mobile er det naturligvis væsentligt at have for øje at struktur og standard skal have konsistens. Det er altså vigtigt at strukturen afspejler at indholdet skal bruges på en mobilenhed, hvilket i sagens natur, både har styrker og svagheder.
+</para>
+</section>
+
+<section id="fs-id1168002232964">
+<title>Kolonner</title>
+<para id="kolonner">
+Kolonner er i mange tilfælde ikke en god løs, når det kommer til brug på mobileenheder, fordi kolonnebredden typisk er en udfordring for den mobile enhed. Alligevel kan der være tilfælde, hvor brugen af kolonner alligevel er nødvendig.
+
+I dette eksempel vises et eksempel på, hvordan der udarbejdes en 2 x 1 kolonne.
+<newline/>
+<newline/>
+<code> &lt;div id="fs-id1168018077308" class="ui-grid-a"&gt;
+	&lt;div id="fs-id1168002938576" class="ui-block-a"&gt;&lt;strong&gt;I'm Block A&lt;/strong&gt; and text inside will wrap&lt;/div&gt;
+	&lt;div id="fs-id1168018086627" class="ui-block-b"&gt;&lt;strong&gt;I'm Block B&lt;/strong&gt; and text inside will wrap&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /grid-a --&gt;
+</code>
+
+</para>
+
+</section>
+
+<section id="fs-id1165441819313">
+<title>Folde-sammen-og-rulle-ud-menu</title>
+<para id="foldemenu">
+Idet indholdet på siden skal være tilpasset mobile enheder kan det være en god idé umiddelbart at skjule indhold for modtageren for at bevare overskueligheden. En af måderne at gøre det på er via en rullemenu, som brugeren kan klikke på for at synliggøre nyt indhold. Den kan laves med nedenstående kode:
+<newline/>
+<newline/>
+<code> &lt;div data-role="collapsible"&gt;
+   &lt;h3&gt;I'm a header&lt;/h3&gt;
+   &lt;p&gt;I'm the collapsible content. By default I'm closed, but you can click the header to open me.&lt;/p&gt;
+&lt;/div&gt;
+</code>
+<newline/>
+<newline/>
+Du kan også lave en menu, som automatisk folder ud når siden er indlæst. Det gør du ved hjælp af tilføje attributen:
+<newline/>
+<newline/>
+<code>&gt; &lt;div data-role="collapsible" data-collapsed="false"&gt;</code> 
+
+
+</para>
+</section>
+
+
+
+  
+</content>
+
+</document>

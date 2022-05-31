@@ -1,0 +1,35 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Om jQuery Mobile</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45313</md:content-id>
+  <md:title>Om jQuery Mobile</md:title>
+  <md:abstract>Dette modul giver en kort introduktion til jQuery Mobile.</md:abstract>
+  <md:uuid>9cdb6a9c-0850-459c-a38c-69e04a0a2e2c</md:uuid>
+</metadata>
+
+<content>
+
+  
+<section id="about">
+  <title>Om jQuery</title> 
+  <para id="info_et">
+none
+  </para>
+
+  <para id="info_to">
+none
+  </para>
+</section>
+
+<section id="framework">
+<title>Frameworket</title>
+  <para id="info_tre">
+none
+  </para>
+</section>
+
+
+</content>
+
+</document>

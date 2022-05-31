@@ -1,0 +1,18 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="da">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11460</md:content-id>
+    <md:title>Introduktion til jQuery Mobile</md:title>
+    <md:language>da</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>05afee0b-a895-4394-999f-b82bea07fe63</md:uuid>
+<md:slug>introduktion-til-jquery-mobile</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m45313"/>
+    <col:module document="m45294"/>
+    <col:module document="m45293"/>
+    <col:module document="m45312"/>
+    <col:module document="m45314"/>
+    <col:module document="m45311"/>
+  </col:content>
+</col:collection>

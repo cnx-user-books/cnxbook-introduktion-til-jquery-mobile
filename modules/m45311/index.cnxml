@@ -1,0 +1,91 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Her kan du lære mere om JQuery Mobile</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45311</md:content-id>
+  <md:title>Her kan du lære mere om JQuery Mobile</md:title>
+  <md:abstract>Dette modul giver informationer om hvor du kan lære mere om JQuery Mobile.</md:abstract>
+  <md:uuid>7356d441-5d39-4fea-8f5d-a419a4296a5e</md:uuid>
+</metadata>
+
+<content>
+  <para id="p1">
+     <title>Introduktion</title>
+På JQuery Mobiles egen hjemmeside <link url="http://jquerymobile.com/" window="new">jquerymobile.com</link> kan du finde dokumentation, demos, tutorials m.m. samt lister med ressourcer til bl.a. artikler, frameworks, apps, værktøjer, extensioner og plugins. Hvis du vil vide mere om JQuery Mobile kan du desuden finde referencer til bøger, blogs og videoer i de nedenstående lister.
+
+ </para>
+<list id="list1"> 
+<title>Bøger</title>
+<item>Bai, Giulio (June 23, 2011). jQuery Mobile First Look (1st ed.). Packt Publishing. p. 216. ISBN 1-84951-590-5.
+</item>
+<item>
+Reid, Jon (July 7, 2011). jQuery Mobile (1st ed.). O'Reilly Media. p. 130. ISBN 1-4493-0668-3.
+</item>
+<item>
+David, Matthew (September 21, 2011). HTML5 Mobile Websites: Turbocharging HTML5 with jQuery Mobile, Sencha Touch, and Other Frameworks (1st ed.). Focal Press. p. 250. ISBN 0-240-81813-X.
+</item>
+<item>
+Broulik, Brad (November 30, 2011). Pro jQuery Mobile (1st ed.). Apress. p. 350. ISBN 1-4302-3966-2.
+</item>
+<item>
+Doyle, Matt (December 16, 2011). Master Mobile Web Apps with jQuery Mobile (2nd ed.). Elated Communications Ltd. p. 446. ISBN 978-0-9569218-4-0.
+</item>
+<item>
+Dutson, Phil (July 13, 2012). Sams Teach Yourself jQuery Mobile in 24 Hours (1st ed.). Sams. p. 475. ISBN 0-672-33594-8.
+</item>
+<item>
+Holzner, Steven E. (January 2, 2012). Sams Teach Yourself jQuery Mobile in 10 Minutes (1st ed.). Sams. p. 240. ISBN 0-672-33557-3.
+</item>
+<item>
+Firtman, Maximiliano (January 31, 2012). jQuery Mobile: Up and Running (1st ed.). O'Reilly Media. p. 250. ISBN 1-4493-9765-4.
+</item>
+<item>
+de Jonge, Adriaan, Dutson, Phillip (November 2, 2012). jQuery, jQuery UI, and jQuery Mobile: Recipes and Examples (1st ed.). Addison-Wesley Professional. p. 400. ISBN 978-0-321-82208-6.
+</item>
+</list>
+
+<list id="list2"> 
+<title>Videoer</title>
+<item>
+<link url="http://www.youtube.com/watch?v=4xvf2Jfxq4s" window="new">Building Great Mobile Websites Quickly with jQuery Mobile</link> 
+</item>
+<item>
+<link url="http://www.youtube.com/watch?v=3AlvL7HuwqE" window="new">jQuery Mobile Dynamic Pages, Links, the back button</link>
+</item>
+<item>
+<link url="http://www.youtube.com/watch?v=JTNp0CkIZio" window="new">jQuery Mobile Toolbars Navigation Menus </link>
+</item>
+<item>
+<link url="http://www.youtube.com/watch?v=XsMULZ89aYc" window="new">Going Deeper with jQuery Mobile</link>
+</item>
+</list>
+
+<list id="list3"> 
+<title>Blogs</title>
+<item>
+<link url="http://www.hongkiat.com/blog/build-websites-apps-jquery-mobile/" window="new">Mobile App Design/Dev: Beginner’s Guide to jQuery Mobile</link> 
+</item>
+<item>
+<link url="http://www.webdesignerdepot.com/2011/05/10-handy-jquery-mobile-tips-and-snippets-to-get-you-started/" window="new">10 handy jQuery mobile tips and snippets to get you started </link>
+</item>
+<item>
+<link url="http://www.jquery4u.com/mobile/50-jquery-mobile-development/" window="new">50 jQuery Mobile Development Tips </link>
+</item>
+<item>
+<link url="http://miamicoder.com/2011/creating-a-website-using-jquery-mobile-part1/" window="new">Creating a Website Using JQuery Mobile, Part 1</link>
+</item>
+</list>
+
+<example id="tutorial-example">
+<title>Eksempel på video-tutorial</title>
+<figure id="youtube">
+ <title>jQuery Mobile tutorial: Creating custom icons</title>
+ <media id="yt-media" display="block" alt="Video-tutorial">
+<iframe width="640" height="360" src="http://www.youtube.com/embed/3AytnSpRvHc?feature=player_embedded"/>
+ </media>
+</figure> 
+</example>
+
+</content>
+
+</document>

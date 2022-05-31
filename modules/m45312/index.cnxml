@@ -1,0 +1,40 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Hvordan linker man til sider i jQuery Mobile</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45312</md:content-id>
+  <md:title>Hvordan linker man til sider i jQuery Mobile</md:title>
+  <md:abstract>Hvordan man linker til sider i jQuery Mobile</md:abstract>
+  <md:uuid>39c3b49b-3fca-4dc0-8bfb-b04aa255879e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.youtube.com/watch?v=OqLPP70XnVY" strength="3">Se en video om, hvordan du linker i jQuery Mobile</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+  <para id="eip-960">Når du laver interne links på en hjemmeside lavet med jQuery Mobile, skal du tage højde for, at koden adskiller sig lidt ift. almindelig HTML-kodning. Herunder kan du se et eksempel på, hvordan href og id skal bruges til at linke i jQuery Mobile. 
+</para><para id="eip-198">Kort forklaring: I den tekst, du linker fra, skal der indgå et href-tag. Dette tag skal så indeholde et havelåge-tegn og det id, som du har defineret i den side, der linkes til. </para><para id="eip-145"><title>Eksempel</title>I følgende eksempel vil vi linke til side 1. 
+Først angiver vi teksten "Side 1" i et href-tag, da vi skal linke fra denne tekst. href-tagget indeholder et #side1, hvilket henviser til id'et på den side, som vi linker til.</para><code id="eip-851" display="block"><code>
+    &lt;p&gt;&lt;a href="#side1"&gt;Side 1&lt;/a&gt;&lt;/p&gt;
+</code></code><para id="eip-9">I nedenstående kode er selve sidens id (side1) defineret.</para><code id="eip-196" display="block"><code>
+    &lt;div data-role="page" id="side1" data-title="Side 1"&gt;
+    &lt;div data-role="header"&gt;
+    &lt;h1&gt;Side 1&lt;/h1&gt;
+</code></code><para id="eip-565">I jQuery Mobile kan du også tilføje overgange mellem siderne. Det gør du ved hjælp af data-transition - se eksemplet nedenfor.</para><code id="eip-408" display="block"><code>
+    &lt;p&gt;&lt;a data-transition="slide" href="#side1"&gt;Side 1&lt;/a&gt;&lt;/p&gt;
+</code></code><para id="eip-537"><title>Video-eksempel</title>Herunder kan du se, hvordan koder skal laves og indsættes i jQuery Mobil, hvis du vil linke til interne sider.</para>
+
+<para id="eip-513"><figure id="jquerymobilelinks"><title>Links på jQuery Mobile-sider</title><media id="yt-media" display="block" alt="jQuery Mobile-links">
+  <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/OqLPP70XnVY?version=3&amp;hl=en_US" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para></content>
+
+</document>

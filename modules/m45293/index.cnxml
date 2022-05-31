@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>jQuery Mobile - Theming</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45293</md:content-id>
+  <md:title>jQuery Mobile - Theming</md:title>
+  <md:abstract/>
+  <md:uuid>96537dad-ae5b-4169-b16f-2e6f09e42bc1</md:uuid>
+</metadata>
+
+<content>
+      <section id="gd-idp1104128">
+        <title>Themes</title><para id="gd-idp1102496">Med jQuery Mobile kan man benytte temaer, der giver mulighed for at tilpasse farveskemaer og visse CSS-aspekter. Man kan bruge jQuery Mobile ThemeRoller applikationen for at tilpasse temaerne. Efter at have udviklet et tema i ThemeRoller applikationen, kan man hente en brugerdefineret CSS-fil og indlejre den i sit projekt og på den måde bruge de brugerdefinerede tema.</para><para id="gd-idp1101520">Hvert tema kan indeholde op til 26 unikke "farveprøver", som hver består af en header bar, en body, og knapper. Kombinationen af de forskellige farveprøver giver mulighed for at skabe en bredere vifte af visuelle effekter, end man ville være i stand til med kun en farveprøve per tema. Skift mellem forskellige farveprøver i et tema er så simpelt som at tilføje en attribut kaldet "data-tema" til sine HTML-elementer.</para><para id="gd-idp196240">jQuery Mobile standardtema har fem forskellige farveskemaer: "a", "b", "c", "d", og "e". På den måde, kan man let skifte mellem forskellige temaer ved blot at ændre bogstavet i koden.</para><para id="gd-idp606560"><emphasis effect="italics">(Kilde:Wikipedia)</emphasis>
+        </para></section>
+<figure id="fs-id1165714793320"><title>Temaer</title><media id="figureexample" alt="Temaer">
+      <image mime-type="image/jpeg" src="../../media/jQuery.jpg"/>
+   </media></figure>
+<para id="fs-id1165696636187">
+Man kan få mere at vide om temaer
+  <link url="http://en.wikipedia.org/wiki/JQuery_Mobile" window="new">her</link>.</para>
+<code id="popup" display="block">
+    &lt;div data-role="content" data-theme="c"&gt;	
+     &lt;p&gt;Herman boede i Horsens, men engang var han ude at rejse. 
+
+</code>
+</content>
+</document>

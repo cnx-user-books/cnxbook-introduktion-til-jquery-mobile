@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Sådan laver du navigeringsknapper</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45314</md:content-id>
+  <md:title>Sådan laver du navigeringsknapper</md:title>
+  <md:abstract/>
+  <md:uuid>36312480-bc6b-4762-8c2a-f22364eba052</md:uuid>
+</metadata>
+<content>
+    <section id="gd-idm6685184"><title>Sådan laver du navigeringsknapper</title><para id="gd-idm4749296">Knapper er centrale elementer i Jquery Mobile. Der findes to typer af knapper på jQuery Mobile: Formknapper der laves med "input" eller "button" tags og navigeringsknapper der laves med et a-tag, hvorefter Jquery Mobile automatisk optimerer knapperne til brug på mobile enheder for at give en ensartet og optimal brugeroplevelse, på tværs af mobile enheder.</para>
+      <example id="eip-163"><para id="eip-747">Et link vil eksempelvis blive til en navigeringsknap ved at tilføje atributten data-role="button"       </para><code id="eip-708" display="block">&lt;a href="index.html" data-role="button"&gt;Link button&lt;/a&gt;</code><para id="eip-697">Dette vil give følgende resultat:</para><example id="eip-954"><para id="eip-873">
+  <figure id="Navigationbutton"><media id="navbut" alt="Navigationsknap med link">
+    <image mime-type="image/jpeg" src="https://dl.dropbox.com/u/10235806/linkbutton.jpg"/>
+  </media>
+  </figure></para>
+</example></example><note id="eip-796" type="tip">Både navigationsknap og form knap kan styles med fx. tekst, ikoner, placering mv.</note>   </section><section id="eip-704"><title>Mini version af navigeringsknap</title><para id="eip-460">Det er også muligt at lave en mini version af navigationsknappen til brug fx i menubarer eller hvor pladsen er trang. Dette gøres ved at tilføje  data-mini="true"
+</para><para id="eip-969">Dette giver en knap der afviger fra en standard knap ved at være mere kompakt og med mindre font størrelse.
+</para><exercise id="eip-814"><title>Lav korrekt kode</title><problem id="eip-10">
+  <para id="eip-874">Hvordan skal koden se ud, for at lave en mere kompakt version af en navigationsknap?
+  </para></problem>
+
+<solution id="eip-656">
+  <para id="eip-292"><code id="test" display="block">
+&lt;a href="index.html" data-role="button" data-mini="true"&gt;Link button&lt;/a&gt;
+</code></para></solution>
+</exercise>
+<note id="eip-710" type="important">Tilføjelsen af data-mini="true" kan også bruges på form knapper der ønskes i en mere kompakt version.</note></section><section id="eip-794"><title>Prøv selv</title><para id="eip-951">
+Hvis du selv vil prøve at lave navigationsknapper i jQuery Mobile kan du se mere på <link url="http://jquerymobile.com/demos/1.2.0/docs/buttons/index.html" window="new">http://jquerymobile.com/demos/1.2.0/docs/buttons/index.html</link>
+</para></section>
+  </content>
+</document>
